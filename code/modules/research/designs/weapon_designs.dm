@@ -386,7 +386,7 @@
 	build_path = /obj/item/gun/energy/laser/pistol
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+/*
 /datum/design/plasmap
 	name = "Plasma pistol"
 	desc = "An plasma pistol."
@@ -466,7 +466,7 @@
 	build_path = /obj/item/gun/ballistic/automatic/m72
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+*/ 
 /datum/design/decloner
 	name = "Decloner"
 	desc = "Your opponent will bubble into a messy pile of goop."
@@ -511,7 +511,7 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 */
-
+/*
 /datum/design/ioncarbine
 	name = "Ion Carbine"
 	desc = "How to dismantle a cyborg : The gun."
@@ -541,7 +541,7 @@
 	build_path = /obj/item/gun/energy/gravity_gun
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
-
+*/
 /*
 /datum/design/largecrossbow
 	name = "Energy Crossbow"
@@ -727,7 +727,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 //weapon parts
-/*
+
 /datum/design/fluxcap
 	name = "Flux capacitator"
 	desc = "An advanced weapons part."
@@ -787,4 +787,4 @@
 	build_path = /obj/item/advanced_crafting_components/alloys
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
-*/
+
