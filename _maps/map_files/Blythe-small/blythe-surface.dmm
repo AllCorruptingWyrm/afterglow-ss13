@@ -7154,7 +7154,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/ghoul/zombie/glowing,
+/* /mob/living/simple_animal/hostile/ghoul/zombie/glowing, */ 
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -32230,7 +32230,7 @@
 "pLb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/ghoul/zombie/glowing,
+/* /mob/living/simple_animal/hostile/ghoul/zombie/glowing, */ 
 /turf/open/floor/f13{
 	icon_state = "floordirty"
 	},

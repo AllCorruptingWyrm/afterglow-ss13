@@ -404,7 +404,7 @@
 	footstep_type = FOOTSTEP_MOB_BAREFOOT
 	can_ghost_into = FALSE
 
-/* //Halloween Event Ghouls
+ //Halloween Event Ghouls /* NEVER EVER EVER EVER SPAWN THESE, EVER  - Tzula
 /mob/living/simple_animal/hostile/ghoul/zombie
 	name = "ravenous feral ghoul"
 	desc = "A ferocious feral ghoul, hungry for human meat."
@@ -496,4 +496,4 @@
 	sneak_detection_threshold = HARD_CHECK
 	sneak_roll_modifier = DIFFICULTY_CHALLENGE
 
-*/ 
+
