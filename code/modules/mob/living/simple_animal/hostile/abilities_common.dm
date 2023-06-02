@@ -95,9 +95,9 @@
 	action_icon = 'icons/mob/actions.dmi'
 	action_icon_state = "velvet_chords"
 
-/obj/effect/proc_holder/mob_common/summon_backup/ghoul
+/* /obj/effect/proc_holder/mob_common/summon_backup/ghoul
 	allowed_mobs = RTS_GHOUL_ALLOWED
-	banned_from_lowpop = TRUE
+	banned_from_lowpop = TRUE */ 
 
 /obj/effect/proc_holder/mob_common/summon_backup/small_critter
 	banned_from_lowpop = FALSE
@@ -160,9 +160,9 @@
 	action.button_icon_state = "Chevron_State_[active]"
 	action.UpdateButtonIcon()
 
-/obj/effect/proc_holder/mob_common/direct_mobs/ghoul
+/* /obj/effect/proc_holder/mob_common/direct_mobs/ghoul
 	allowed_mobs = RTS_GHOUL_ALLOWED
-	banned_from_lowpop = TRUE
+	banned_from_lowpop = TRUE */ 
 
 /obj/effect/proc_holder/mob_common/direct_mobs/small_critter
 	allowed_mobs = RTS_SMALLCRITTER_ALLOWED
