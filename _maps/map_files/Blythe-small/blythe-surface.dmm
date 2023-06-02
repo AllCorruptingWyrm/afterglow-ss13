@@ -31625,6 +31625,7 @@
 /area/f13/wasteland/legion)
 "oRH" = (
 /obj/structure/table/glass,
+/obj/machinery/chem_heater,
 /turf/open/floor/plasteel/neutral,
 /area/f13/followers)
 "oSq" = (
