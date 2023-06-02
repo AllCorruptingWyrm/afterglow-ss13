@@ -92,7 +92,7 @@
 	loot = list(/obj/item/stack/f13Cash/random/low/lowchance)
 	footstep_type = FOOTSTEP_MOB_BAREFOOT
 	can_ghost_into = TRUE
-	call_backup = /obj/effect/proc_holder/mob_common/summon_backup/ghoul
+	call_backup = /obj/effect/proc_holder/mob_common/summon_backup/ghoul 
 	send_mobs = /obj/effect/proc_holder/mob_common/direct_mobs/ghoul
 	desc_short = "A flimsy creature that may or may not be a reanimated corpse."
 	pop_required_to_jump_into = SMALL_MOB_MIN_PLAYERS
