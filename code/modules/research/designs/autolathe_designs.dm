@@ -625,7 +625,7 @@
 	category = list("initial", "Misc")
 
 //hacked autolathe recipes
-
+/*
 /datum/design/flamethrower
 	name = "Flamethrower"
 	id = "flamethrower"
@@ -633,7 +633,7 @@
 	materials = list(MAT_METAL = 500)
 	build_path = /obj/item/flamethrower/full
 	category = list("initial", "Security")
-
+*/ 
 /datum/design/rcd
 	name = "Rapid Construction Device (RCD)"
 	id = "rcd"
