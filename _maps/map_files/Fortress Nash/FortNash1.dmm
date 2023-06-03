@@ -47121,7 +47121,7 @@
 /obj/effect/overlay/junk/mirror{
 	pixel_y = 34
 	},
-/obj/item/m2flamethrowertank,
+/obj/item/m2tank,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess/neutralchess2,
 /area/f13/building/abandoned)

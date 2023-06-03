@@ -1596,12 +1596,12 @@ GLOBAL_LIST_EMPTY(loadout_boxes)
 
 /// misc Stuff
 
-/datum/loadout_box/dynamite
+/* /datum/loadout_box/dynamite
 	entry_tag = "Box of Dynamite"
 	entry_flags = LOADOUT_FLAG_WASTER
 	entry_class = LOADOUT_CAT_MISC
 	spawn_thing = /obj/item/storage/box/dynamite_box
-
+*/
 /datum/loadout_box/caps
 	entry_tag = "25 Caps"
 	entry_flags = LOADOUT_FLAG_WASTER

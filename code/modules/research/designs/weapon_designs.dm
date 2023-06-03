@@ -306,7 +306,7 @@
 	build_path = /obj/item/gun/ballistic/revolver/thatgun
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+/*
 /datum/design/n99
 	name = "10mm Pistol"
 	desc = "A 10mm pistol design."
@@ -376,7 +376,7 @@
 	build_path = /obj/item/gun/ballistic/rifle/mag/antimateriel
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+*/
 /datum/design/energyp
 	name = "AEP 7"
 	desc = "An energy pistol."
@@ -386,7 +386,7 @@
 	build_path = /obj/item/gun/energy/laser/pistol
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+/*
 /datum/design/plasmap
 	name = "Plasma pistol"
 	desc = "An plasma pistol."
@@ -466,7 +466,7 @@
 	build_path = /obj/item/gun/ballistic/automatic/m72
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+*/
 /datum/design/decloner
 	name = "Decloner"
 	desc = "Your opponent will bubble into a messy pile of goop."
@@ -521,7 +521,7 @@
 	build_path = /obj/item/gun/energy/ionrifle/carbine
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
+/*
 /datum/design/wormhole_projector
 	name = "Bluespace Wormhole Projector"
 	desc = "A projector that emits high density quantum-coupled bluespace beams."
@@ -542,7 +542,7 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
-/*
+
 /datum/design/largecrossbow
 	name = "Energy Crossbow"
 	desc = "A reverse-engineered energy crossbow favored by syndicate infiltration teams and carp hunters."
@@ -572,7 +572,7 @@
 	build_path = /obj/item/gun/ballistic/automatic/magrifle/nopin
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-*/
+*/ 
 
 ///////////
 //Grenades/
@@ -727,7 +727,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 //weapon parts
-/*
+
 /datum/design/fluxcap
 	name = "Flux capacitator"
 	desc = "An advanced weapons part."
@@ -787,4 +787,4 @@
 	build_path = /obj/item/advanced_crafting_components/alloys
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
-*/
+
