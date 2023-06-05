@@ -3411,6 +3411,9 @@
 "bHT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/smes,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/brotherhood/surface)
 "bIi" = (
