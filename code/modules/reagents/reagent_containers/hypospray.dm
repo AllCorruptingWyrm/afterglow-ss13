@@ -158,6 +158,7 @@
 	icon = 'icons/fallout/objects/medicine/drugs.dmi'
 	icon_state = "hypo_stimpak"
 	custom_price = PRICE_STIMPAK
+	self_delay = 5
 	volume = 10
 	amount_per_transfer_from_this = 10
 	reagent_flags = DRAWABLE
