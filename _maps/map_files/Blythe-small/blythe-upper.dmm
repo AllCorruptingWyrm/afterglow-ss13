@@ -9722,6 +9722,15 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
+"Uq" = (
+/obj/machinery/power/port_gen/pacman/diesel{
+	anchored = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/stone,
+/area/f13/wasteland)
 "Ur" = (
 /obj/machinery/light{
 	dir = 4
@@ -10340,7 +10349,6 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/stone,
 /area/f13/wasteland)
 "WQ" = (
@@ -59624,7 +59632,7 @@ QU
 lj
 lj
 rK
-Wq
+Uq
 Wq
 Wq
 mg
