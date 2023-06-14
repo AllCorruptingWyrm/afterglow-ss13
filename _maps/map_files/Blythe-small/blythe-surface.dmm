@@ -1033,7 +1033,6 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/indestructible/ground/outside/desert,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
 	icon_state = "horizontaloutermain1"
@@ -2860,7 +2859,6 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/indestructible/ground/outside/desert,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
 	icon_state = "horizontaloutermain1"
@@ -7593,14 +7591,6 @@
 	icon_state = "verticaloutermain1"
 	},
 /area/f13/wasteland)
-"dKp" = (
-/obj/effect/overlay/desert/sonora/edge{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
-	},
-/area/f13/brotherhood/surface)
 "dKM" = (
 /obj/structure/flora/tree/tall{
 	layer = 2;
@@ -12421,11 +12411,6 @@
 	},
 /turf/open/floor/wood_common,
 /area/f13/ambientlighting/building/j)
-"gcJ" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
-	},
-/area/f13/brotherhood/surface)
 "gcM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/sofa/right{
@@ -12688,14 +12673,6 @@
 /obj/structure/decoration/rag,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building/tribal)
-"gjF" = (
-/obj/effect/overlay/desert/sonora/edge{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
-	},
-/area/f13/brotherhood/surface)
 "gjL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -16218,7 +16195,8 @@
 	},
 /obj/effect/overlay/desert/sonora/edge,
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
 /area/f13/brotherhood/surface)
 "hRD" = (
@@ -19633,7 +19611,8 @@
 	icon_state = "4-8"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
 /area/f13/brotherhood/surface)
 "jvQ" = (
@@ -22841,7 +22820,8 @@
 	},
 /obj/effect/overlay/desert/sonora/edge,
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
 /area/f13/brotherhood/surface)
 "kVP" = (
@@ -24204,7 +24184,8 @@
 	icon_state = "4-8"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
 /area/f13/brotherhood/surface)
 "lHa" = (
@@ -24428,14 +24409,6 @@
 	},
 /turf/open/floor/f13,
 /area/f13/building)
-"lMy" = (
-/obj/effect/overlay/desert/sonora/edge{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticaloutermain3"
-	},
-/area/f13/brotherhood/surface)
 "lMA" = (
 /obj/effect/overlay/desert/sonora/edge/corner{
 	dir = 8
@@ -25087,7 +25060,8 @@
 	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
 /area/f13/brotherhood/surface)
 "mbL" = (
@@ -26445,14 +26419,6 @@
 /obj/machinery/jukebox,
 /turf/open/floor/wood_common,
 /area/f13/bar)
-"mHc" = (
-/obj/effect/overlay/desert/sonora/edge{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
-	},
-/area/f13/brotherhood/surface)
 "mHp" = (
 /obj/structure/reagent_dispensers/barrel/explosive,
 /obj/structure/reagent_dispensers/barrel/explosive{
@@ -28074,15 +28040,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ambientlighting/building/h)
-"ntm" = (
-/obj/effect/overlay/desert/sonora/edge{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
-	},
-/area/f13/brotherhood/surface)
 "ntz" = (
 /obj/effect/mapping_helpers/network_builder/power_cable/red/auto,
 /turf/closed/wall/f13/wood/house,
@@ -35413,7 +35370,7 @@
 	id_tag = "floor1elevatordoors";
 	req_access_txt = "120"
 	},
-/turf/closed/wall/f13/store,
+/turf/open/floor/plasteel/f13/stone,
 /area/f13/brotherhood/surface)
 "qVn" = (
 /obj/structure/sign/map/right{
@@ -40174,7 +40131,6 @@
 	icon_state = "1-2"
 	},
 /obj/effect/overlay/desert/sonora/edge,
-/turf/open/indestructible/ground/outside/desert,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
 	icon_state = "horizontaloutermain1"
@@ -43820,15 +43776,6 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/ambientlighting/building/m)
-"vaj" = (
-/obj/effect/overlay/desert/sonora/edge{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/desert,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
-	},
-/area/f13/brotherhood/surface)
 "vaq" = (
 /obj/effect/landmark/start/f13/auxilia,
 /turf/open/floor/wood_common,
@@ -45761,7 +45708,8 @@
 	dir = 4
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
+	dir = 1;
+	icon_state = "horizontaloutermain1"
 	},
 /area/f13/brotherhood/surface)
 "wbl" = (
@@ -98789,7 +98737,7 @@ mjV
 vrW
 kAZ
 jMk
-xHd
+qUR
 eso
 eso
 eso
@@ -98989,9 +98937,9 @@ wdg
 wdg
 pRf
 bBH
-wdg
+kAZ
+jMk
 qUR
-wdg
 wdg
 wdg
 eso
@@ -99191,7 +99139,7 @@ sPy
 sPy
 sPy
 vrW
-wdg
+kAZ
 jMk
 xHd
 xHd
@@ -99396,17 +99344,17 @@ vrW
 wdg
 jMk
 hRy
-gjF
-gjF
-ntm
-gjF
-gjF
-lGU
-gjF
-wbd
-gjF
 oTY
-mHc
+oTY
+oTY
+oTY
+oTY
+lGU
+oTY
+wbd
+oTY
+oTY
+oTY
 oTY
 fMS
 ylL
@@ -99606,11 +99554,11 @@ brU
 ayO
 uwi
 uwi
-gcJ
 uwi
-gcJ
-gcJ
-gcJ
+uwi
+uwi
+uwi
+uwi
 bEH
 bEH
 fcX
@@ -99800,18 +99748,18 @@ dNF
 rqt
 jMk
 kVM
-vaj
-dKp
-dKp
-dKp
-dKp
+pgE
+pgE
+pgE
+pgE
+pgE
 jvG
 pgE
 pgE
 pgE
 pgE
 pgE
-lMy
+pgE
 mbJ
 bmn
 aGV
