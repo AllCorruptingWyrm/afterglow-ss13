@@ -35365,13 +35365,6 @@
 /obj/effect/overlay/desert_side,
 /turf/open/floor/plating/f13/inside/gravel,
 /area/f13/wasteland/legion)
-"qUR" = (
-/obj/machinery/door/airlock/grunge{
-	id_tag = "floor1elevatordoors";
-	req_access_txt = "120"
-	},
-/turf/open/floor/plasteel/f13/stone,
-/area/f13/brotherhood/surface)
 "qVn" = (
 /obj/structure/sign/map/right{
 	pixel_y = 30
@@ -98737,7 +98730,7 @@ mjV
 vrW
 kAZ
 jMk
-qUR
+xHd
 eso
 eso
 eso
@@ -98939,7 +98932,7 @@ pRf
 bBH
 kAZ
 jMk
-qUR
+xHd
 wdg
 wdg
 eso
