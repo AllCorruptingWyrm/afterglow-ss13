@@ -35413,7 +35413,7 @@
 	id_tag = "floor1elevatordoors";
 	req_access_txt = "120"
 	},
-/turf/open/floor/plasteel/f13/stone,
+/turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
 "qVn" = (
 /obj/structure/sign/map/right{
