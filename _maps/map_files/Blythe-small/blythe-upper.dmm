@@ -921,6 +921,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/followers)
+"ex" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13,
+/area/f13/wasteland)
 "ey" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -9722,15 +9729,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
-"Uq" = (
-/obj/machinery/power/port_gen/pacman/diesel{
-	anchored = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plasteel/f13/stone,
-/area/f13/wasteland)
 "Ur" = (
 /obj/machinery/light{
 	dir = 4
@@ -9829,6 +9827,15 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/ncr)
+"UL" = (
+/obj/machinery/power/port_gen/pacman/diesel{
+	anchored = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/stone,
+/area/f13/wasteland)
 "UM" = (
 /obj/structure/railing/corner,
 /turf/open/floor/f13{
@@ -58011,7 +58018,7 @@ Cb
 Cb
 Cb
 kY
-Jf
+um
 Jf
 Jf
 Jf
@@ -58213,7 +58220,7 @@ Cb
 Cb
 Cb
 kY
-lj
+ex
 Bn
 ur
 bV
@@ -59632,7 +59639,7 @@ QU
 lj
 lj
 rK
-Uq
+UL
 Wq
 Wq
 mg
