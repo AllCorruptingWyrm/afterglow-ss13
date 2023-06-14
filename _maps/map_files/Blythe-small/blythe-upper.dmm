@@ -36,6 +36,13 @@
 	},
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland/ncr)
+"ah" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8;
+	light_color = "#f4e3b0"
+	},
+/turf/open/floor/plasteel/f13,
+/area/f13/wasteland)
 "ai" = (
 /obj/structure/toilet{
 	dir = 1
@@ -921,13 +928,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/followers)
-"ex" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8;
-	light_color = "#f4e3b0"
-	},
-/turf/open/floor/plasteel/f13,
-/area/f13/wasteland)
 "ey" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -1125,10 +1125,10 @@
 /turf/open/floor/carpet/green,
 /area/f13/ambientlighting/building/j)
 "fx" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/stool{
+	pixel_y = 6
+	},
 /turf/open/floor/plasteel/f13,
 /area/f13/wasteland)
 "fy" = (
@@ -2464,9 +2464,7 @@
 /turf/closed/wall/f13/supermart,
 /area/f13/building/mall)
 "lB" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
+/obj/machinery/hydroponics/constructable,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13,
@@ -3097,6 +3095,7 @@
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13,
 /area/f13/wasteland)
 "oO" = (
@@ -3294,6 +3293,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13,
 /area/f13/wasteland)
 "pI" = (
@@ -4673,10 +4673,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/mall)
 "vH" = (
+/obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 4
+/obj/item/reagent_containers/food/drinks/mug{
+	pixel_x = 2;
+	pixel_y = 7
 	},
 /turf/open/floor/plasteel/f13,
 /area/f13/wasteland)
@@ -4706,8 +4707,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building/hospital)
 "vO" = (
+/obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/drinkingglasses{
+	pixel_y = 2
+	},
 /turf/open/floor/plasteel/f13,
 /area/f13/wasteland)
 "vP" = (
@@ -7654,6 +7659,15 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/closed/wall/f13/wood/house,
 /area/f13/ambientlighting/building/j)
+"JF" = (
+/obj/machinery/power/port_gen/pacman/diesel{
+	anchored = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plasteel/f13/stone,
+/area/f13/wasteland)
 "JG" = (
 /obj/structure/displaycase/trophy,
 /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever,
@@ -9827,15 +9841,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/wasteland/ncr)
-"UL" = (
-/obj/machinery/power/port_gen/pacman/diesel{
-	anchored = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plasteel/f13/stone,
-/area/f13/wasteland)
 "UM" = (
 /obj/structure/railing/corner,
 /turf/open/floor/f13{
@@ -10786,6 +10791,12 @@
 	name = "air";
 	sunlight_state = 1
 	},
+/area/f13/wasteland)
+"Zc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/obj/structure/table/wood,
+/turf/open/floor/plasteel/f13,
 /area/f13/wasteland)
 "Ze" = (
 /turf/open/floor/wood_common,
@@ -58220,7 +58231,7 @@ Cb
 Cb
 Cb
 kY
-ex
+ah
 Bn
 ur
 bV
@@ -58229,14 +58240,14 @@ lj
 De
 lj
 lj
+rK
+rK
 lj
 lj
 lj
+rK
 lj
 lj
-eA
-vH
-eq
 lj
 lj
 lj
@@ -58431,16 +58442,16 @@ vM
 wV
 lj
 oM
-lj
-pG
-lj
-tv
-lj
-vO
-af
-NM
 rK
+pG
 eq
+lB
+eq
+eA
+Bn
+vH
+fx
+lj
 eA
 eq
 eA
@@ -58637,12 +58648,12 @@ rK
 lj
 eq
 eq
-eq
-eq
-xN
-eq
-eq
 eA
+rK
+Bn
+vO
+fx
+eq
 ku
 ro
 pt
@@ -58839,12 +58850,12 @@ rK
 tv
 rK
 iT
-lj
-lj
+rK
+rK
 fx
-JK
-lB
-eq
+Zc
+af
+NM
 DF
 af
 NM
@@ -59042,10 +59053,10 @@ rK
 Xr
 rK
 rK
+eq
 rK
-rK
-lj
-nZ
+eq
+xN
 eq
 eq
 Lj
@@ -59639,7 +59650,7 @@ QU
 lj
 lj
 rK
-UL
+JF
 Wq
 Wq
 mg
