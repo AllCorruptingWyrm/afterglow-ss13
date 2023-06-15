@@ -659,8 +659,8 @@
  * * * * * * * */
 
 /* .50MG Match
- * DAMAGE: 93
- * STAMIN: 140
+ * DAMAGE: 60
+ * STAMIN: 24
  * RECOIL: 2
  * WOUNDS: 50
  * WNAKED: 30
@@ -681,7 +681,7 @@
 
 /* .50MG surplus
  * DAMAGE: 75
- * STAMIN: 140
+ * STAMIN: 24
  * RECOIL: 2
  * WOUNDS: 40
  * WNAKED: 30
