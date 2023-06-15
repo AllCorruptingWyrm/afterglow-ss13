@@ -662,8 +662,8 @@
 		/datum/firemode/semi_auto/slower
 	)
 	zoomable = TRUE
-	zoom_amt = 10
-	zoom_out_amt = 13
+	zoom_amt = 25
+	zoom_out_amt = 28
 	fire_sound = 'sound/f13weapons/antimaterielfire.ogg'
 	pump_sound = 'sound/f13weapons/antimaterielreload.ogg'
 	gun_sound_properties = list(
