@@ -711,6 +711,78 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m10mm = 3,
 		)
 
+/datum/job/ncr/f13civieranger
+	title = "NCR Civilian Ranger"
+	flag = F13CIVIERANGER
+	total_positions = 3
+	spawn_positions = 3
+	description = "As an NCR Ranger, you are the premier special forces unit of the NCR. You are the forward observations and support the Army in it's campaigns, as well as continuing the tradition of stopping slavery in it's tracks."
+	supervisors = "Veteran Ranger"
+	selection_color = "	#fff5cc"
+	display_order = JOB_DISPLAY_ORDER_CIVIERANGER
+	outfit = /datum/outfit/job/ncr/f13ranger
+	exp_requirements = 500
+
+	loadout_options = list( // ALL: Binoculars, Bowie knife, 10mm pistol, go find a better pistol,
+	/datum/outfit/loadout/cqcranger, // Two .357 revolver,
+	/datum/outfit/loadout/fobranger, // Lever shotgun, .45 Colt,
+	/datum/outfit/loadout/civilianranger, // Cowboy repeater, .45 Colt,
+	)
+
+/datum/outfit/job/ncr/f13civieranger
+	name = "NCR Civilian Ranger"
+	jobtype	= /datum/job/ncr/f13civieranger
+	id = /obj/item/card/id/dogtag/ncrranger
+	uniform	= /obj/item/clothing/under/f13/ranger/trail
+	head = /obj/item/clothing/head/f13/trailranger
+	gloves = /obj/item/clothing/gloves/patrol
+	shoes = /obj/item/clothing/shoes/f13/military/leather
+	glasses	= /obj/item/clothing/glasses/sunglasses
+	ears = /obj/item/radio/headset/headset_ranger
+	r_pocket = /obj/item/binoculars
+	neck = /obj/item/storage/belt/shoulderholster
+	backpack_contents = list(
+		/obj/item/restraints/handcuffs = 1,
+		/obj/item/melee/onehanded/knife/bowie = 1,
+		/obj/item/grenade/smokebomb = 1,
+		)
+
+/datum/outfit/loadout/cqcranger
+	name = "CQC Ranger"
+	suit = /obj/item/clothing/suit/toggle/armor/rangerrecon
+	belt = /obj/item/storage/belt/military/reconbandolier
+	head = /obj/item/clothing/head/f13/ncr/ranger
+	neck = /obj/item/clothing/neck/mantle/ranger
+	backpack_contents = list(
+		/obj/item/gun/ballistic/revolver/colt357 = 2,
+		/obj/item/ammo_box/a357box = 2,
+		)
+
+/datum/outfit/loadout/fobranger
+	name = "FOB Ranger"
+	suit = /obj/item/clothing/suit/toggle/armor/rangerrecon
+	belt = /obj/item/storage/belt/military/reconbandolier
+	head = /obj/item/clothing/head/f13/ncr/ranger
+	neck = /obj/item/clothing/neck/mantle/ranger
+	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	backpack_contents = list(
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/ammo_box/c45 = 2,
+		/obj/item/gun/ballistic/revolver/colt357 = 1
+		)
+
+/datum/outfit/loadout/civilianranger
+	name = "Civilian Ranger"
+	suit = /obj/item/clothing/suit/toggle/armor/rangerrecon
+	belt = /obj/item/storage/belt/military/reconbandolier
+	head = /obj/item/clothing/head/f13/ncr/ranger
+	neck = /obj/item/clothing/neck/mantle/ranger
+	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
+	backpack_contents = list(
+		/obj/item/ammo_box/a357box = 2,
+		/obj/item/ammo_box/c45 = 2,
+		/obj/item/gun/ballistic/revolver/colt357 = 1
+	)
 
 ////////////////////
 /// Specialists ////
