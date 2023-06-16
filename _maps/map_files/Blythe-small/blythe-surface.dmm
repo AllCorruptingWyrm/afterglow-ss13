@@ -15469,11 +15469,9 @@
 	},
 /area/f13/wasteland/city)
 "hyO" = (
-/obj/structure/table,
-/obj/item/clothing/head/welding/f13/fire,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/indestructible/ground/outside/road,
-/area/f13/building/abandoned/k)
+/obj/effect/landmark/start/f13/ncrcivieranger,
+/turf/open/floor/wood_common,
+/area/f13/ncr)
 "hyV" = (
 /obj/structure/filingcabinet{
 	pixel_x = -10
@@ -18953,7 +18951,6 @@
 "jfw" = (
 /obj/structure/closet/locker,
 /obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/suit/armor/medium/combat/swat,
 /obj/item/clothing/shoes/cowboyboots/black,
 /obj/item/clothing/head/f13/cowboy,
 /obj/item/storage/belt/army,
@@ -22565,7 +22562,6 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
 	},
-/obj/item/clothing/suit/armor/outfit/vest,
 /obj/machinery/light{
 	dir = 1;
 	pixel_x = 16
@@ -24042,7 +24038,6 @@
 	icon_state = "4-8"
 	},
 /obj/structure/shelf_wood,
-/obj/item/clothing/head/helmet/f13/combat/ncr,
 /obj/item/clothing/shoes/f13/mutie/boots/ncr/ranger,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -32045,7 +32040,6 @@
 "pqE" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/clothing/head/helmet/f13/khan,
-/obj/item/clothing/suit/armor/medium/vest/breastplate/khan,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood_common/wood_common_light,
@@ -39241,7 +39235,6 @@
 "sNI" = (
 /obj/structure/closet/locker,
 /obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/suit/armor/medium/combat/swat,
 /obj/item/clothing/shoes/cowboyboots/black,
 /obj/item/clothing/head/f13/cowboy,
 /obj/item/storage/belt/army,
@@ -40154,14 +40147,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building/abandoned/d)
 "tjo" = (
-/obj/effect/spawner/lootdrop/maybe_enclave_beret,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2"
-	},
-/area/f13/brotherhood/surface)
+/obj/effect/landmark/start/f13/ncroffduty,
+/turf/open/indestructible/ground/outside/road,
+/area/f13/ncr_main)
 "tjp" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -40212,7 +40200,6 @@
 "tkA" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/armor/legion/prime/slavemaster,
-/obj/item/clothing/head/helmet/f13/legion/prime/slavemaster,
 /turf/open/floor/carpet/red,
 /area/f13/legioncamp)
 "tkH" = (
@@ -44076,7 +44063,6 @@
 /obj/structure/rack/shelf_metal,
 /obj/item/clothing/shoes/f13/military/khan,
 /obj/item/clothing/under/f13/khan/booty,
-/obj/item/clothing/suit/armor/medium/vest/breastplate/khan,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
@@ -47639,7 +47625,6 @@
 /area/f13/ambientlighting/building/f)
 "wSJ" = (
 /obj/structure/shelf_wood,
-/obj/item/clothing/head/f13/ncr/standard,
 /obj/item/reagent_containers/food/snacks/f13/canned/ncr/brahmin_dogs,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
@@ -48458,10 +48443,10 @@
 	},
 /area/f13/wasteland/city)
 "xlI" = (
-/obj/structure/shelf_wood,
-/obj/item/clothing/head/f13/ncr/standard,
-/obj/item/reagent_containers/food/snacks/f13/canned/ncr/brahmin_dogs,
-/turf/open/floor/plasteel/f13/stone,
+/obj/effect/landmark/start/f13/ncroffduty,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain1"
+	},
 /area/f13/ncr_main)
 "xlN" = (
 /obj/structure/closet/crate/footlocker,
@@ -48556,7 +48541,6 @@
 /area/f13/ambientlighting/building/g)
 "xof" = (
 /obj/structure/shelf_wood,
-/obj/item/clothing/head/hardhat/ncr,
 /obj/item/reagent_containers/food/snacks/f13/canned/ncr/brahmin_dogs,
 /turf/open/floor/plasteel/f13/stone,
 /area/f13/ncr_main)
@@ -48960,7 +48944,6 @@
 /area/f13/ncr_main)
 "xxK" = (
 /obj/structure/displaycase,
-/obj/item/clothing/suit/armor/light/duster/battlecoat/vault/overseer,
 /obj/machinery/door/poddoor/shutters{
 	id = "mus3"
 	},
@@ -51672,7 +51655,7 @@ bYk
 yhB
 yhB
 yhB
-hyO
+cqG
 lus
 oJv
 fXS
@@ -55134,7 +55117,7 @@ dBk
 reP
 eOu
 reP
-xlI
+xof
 reP
 fJO
 reP
@@ -56187,7 +56170,7 @@ aGe
 lsP
 xsW
 eNS
-vXq
+hyO
 vXq
 vXq
 vXq
@@ -56365,7 +56348,7 @@ oIH
 uQE
 mSY
 vrX
-kej
+xlI
 vfz
 jfU
 rvu
@@ -56389,7 +56372,7 @@ aGe
 lsP
 wHh
 wgK
-vXq
+hyO
 vXq
 qtL
 vXq
@@ -56591,7 +56574,7 @@ aGe
 lsP
 uWo
 uWo
-vXq
+hyO
 vXq
 vXq
 vXq
@@ -56769,7 +56752,7 @@ oIH
 uQE
 mSY
 jWA
-inC
+tjo
 rMo
 inC
 lDk
@@ -56793,7 +56776,7 @@ aGe
 lsP
 rPE
 srR
-vXq
+hyO
 jKV
 cuk
 vXq
@@ -99591,7 +99574,7 @@ sPy
 pRf
 uix
 vaj
-tjo
+ntm
 qUR
 ntm
 brU

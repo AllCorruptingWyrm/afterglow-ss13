@@ -599,6 +599,10 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "NCR Off-Duty"
 	icon_state = "NCR Trooper"
 
+/obj/effect/landmark/start/f13/ncrcivieranger
+	name = "NCR Civilian Ranger"
+	icon_state = "NCR Patrol Ranger"
+
 // Legion
 
 /obj/effect/landmark/start/f13/legate
