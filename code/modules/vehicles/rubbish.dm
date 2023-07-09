@@ -27,7 +27,7 @@
 	resistance_flags = INDESTRUCTIBLE
 	bound_height = 64
 	bound_width = 64
-	var/uses_left = 2
+	var/uses_left = 10
 	var/inuse = FALSE
 
 
@@ -53,17 +53,17 @@
 	var/turf/usr_turf = get_turf(user) //Bellow are the changes made by PR#256
 	var/modifier = 0
 	if(HAS_TRAIT(user,TRAIT_TECHNOPHREAK))
-		modifier += rand(1,3)
+		modifier += rand(3,6)
 	var/obj/item/l = user.get_inactive_held_item()
 	if(istype(l,/obj/item/weldingtool))
 		var/obj/item/weldingtool/WO = l
 		if(WO.tool_start_check(user, amount=3))
 			WO.use(3)
 			modifier++
-	for(var/i2 in 1 to (2+modifier))
+	for(var/i2 in 1 to (6+modifier))
 		new /obj/item/salvage/low(usr_turf)
-	for(var/i3 in 1 to (1+modifier)) //this is just less lines for the same thing
-		if(prob(6))
+	for(var/i3 in 1 to (6+modifier)) //this is just less lines for the same thing
+		if(prob(25))
 			new /obj/item/salvage/high(usr_turf)
 	uses_left--
 	inuse = FALSE //putting this after the -- because the first check prevents cheesing
