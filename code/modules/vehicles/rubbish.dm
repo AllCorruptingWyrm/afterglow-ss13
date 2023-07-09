@@ -27,7 +27,7 @@
 	resistance_flags = INDESTRUCTIBLE
 	bound_height = 64
 	bound_width = 64
-	var/uses_left = 10
+	var/uses_left = 12
 	var/inuse = FALSE
 
 

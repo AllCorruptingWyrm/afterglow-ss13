@@ -804,7 +804,7 @@ GLOBAL_LIST_INIT(storage_tray_can_hold, typecacheof(list(
 #define STORAGE_BAG_MAX_TOTAL_SPACE STORAGE_BAG_MAX_ITEMS * STORAGE_BAG_MAX_SIZE
 
 /// How many items fit in a salvage bag
-#define STORAGE_SALVAGE_BAG_MAX_ITEMS 32
+#define STORAGE_SALVAGE_BAG_MAX_ITEMS 15
 /// How big a thing can fit in a bag thing
 #define STORAGE_SALVAGE_BAG_MAX_SIZE WEIGHT_CLASS_NORMAL
 /// How much volume fits in a bag thing
