@@ -395,7 +395,7 @@ GLOBAL_LIST_INIT(toolbelt_allowed, typecacheof(list(
 	/obj/item/reagent_containers/food/drinks,
 	/obj/item/storage/bag/plants,
 	/obj/item/plant_analyzer,
-	/obj/item/scythe, 
+	/obj/item/scythe,
 	/obj/item/assembly/signaler,
 	/obj/item/grenade/chem_grenade,
 	/obj/item/lightreplacer,
