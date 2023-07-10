@@ -60,9 +60,9 @@
 		if(WO.tool_start_check(user, amount=3))
 			WO.use(3)
 			modifier++
-	for(var/i2 in 1 to (6+modifier))
+	for(var/i2 in 1 to (2+modifier))
 		new /obj/item/salvage/low(usr_turf)
-	for(var/i3 in 1 to (6+modifier)) //this is just less lines for the same thing
+	for(var/i3 in 1 to (3+modifier)) //this is just less lines for the same thing
 		if(prob(25))
 			new /obj/item/salvage/high(usr_turf)
 	uses_left--
