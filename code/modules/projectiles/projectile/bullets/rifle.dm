@@ -671,7 +671,6 @@
 	stamina = BULLET_STAMINA_RIFLE_50MG
 	spread = BULLET_SPREAD_SURPLUS
 	recoil = BULLET_RECOIL_RIFLE_50MG_MATCH
-	armour_penetration = 0.3
 
 	wound_bonus = BULLET_WOUND_RIFLE_50MG_MATCH
 	bare_wound_bonus = BULLET_WOUND_RIFLE_50MG_NAKED_MULT
@@ -693,7 +692,7 @@
 	stamina = BULLET_STAMINA_RIFLE_50MG
 	spread = BULLET_SPREAD_SURPLUS
 	recoil = BULLET_RECOIL_RIFLE_50MG
-	armour_penetration = 0.4
+	armour_penetration = 0.15
 
 	wound_bonus = BULLET_WOUND_RIFLE_50MG
 	bare_wound_bonus = BULLET_WOUND_RIFLE_50MG_NAKED_MULT
@@ -804,27 +803,29 @@
 	sharpness = SHARP_NONE
 	zone_accuracy_type = ZONE_WEIGHT_PRECISION // Rubbers go where you want
 
-/* .50MG scary penetrator
- * DAMAGE: 75
- * STAMIN: 75
+/* .50MG rubber-penetrator
+ * DAMAGE: 7
+ * STAMIN: 225
  * RECOIL: 2
- * WOUNDS: 40
- * WNAKED: 30
+ * WOUNDS: 200
+ * WNAKED: 150
  */
 /obj/item/projectile/bullet/a50MG/penetrator
 	name = "penetrator .50MG slug"
-	damage = BULLET_DAMAGE_RIFLE_50MG
-	stamina = BULLET_STAMINA_RIFLE_50MG
+	damage = RUBBERY_DAMAGE_RIFLE_50MG
+	stamina = RUBBERY_STAMINA_RIFLE_50MG
 	spread = BULLET_SPREAD_SURPLUS
-	recoil = BULLET_RECOIL_RIFLE_50MG
-	armour_penetration = 0.5
+	recoil = RUBBERY_RECOIL_RIFLE_50MG
 
-	wound_bonus = BULLET_WOUND_RIFLE_50MG
+	wound_bonus = RUBBERY_WOUND_RIFLE_50MG
 	bare_wound_bonus = BULLET_WOUND_RIFLE_50MG_NAKED_MULT
 	wound_falloff_tile = BULLET_WOUND_FALLOFF_PISTOL_LIGHT
 
 	pixels_per_second = BULLET_SPEED_RIFLE_50MG
 	damage_falloff = BULLET_FALLOFF_DEFAULT_RIFLE_HEAVY
+
+	sharpness = SHARP_NONE
+	zone_accuracy_type = ZONE_WEIGHT_PRECISION // Rubbers go where you want
 	movement_type = FLYING | UNSTOPPABLE
 
 /*

@@ -53,8 +53,7 @@
 
 /turf/closed/wall/f13/wood/house/broken
 	broken = 1
-	damage = 15
-	hardness = 58
+	damage = 21
 	icon_state = "house0-broken"
 
 /turf/closed/wall/f13/wood/house/broken/attackby(obj/item/W, mob/user, params)
