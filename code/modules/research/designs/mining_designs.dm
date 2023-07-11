@@ -92,6 +92,16 @@
 	category = list("Mining Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_CARGO
 
+/datum/design/sonic_jackhammer
+	name = "sonic jackhammer"
+	desc = "Sonic Jackhammer used for mining ore, it feels heavy even looking at it..."
+	id = "sonic_jackhammer"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000, /datum/material/glass = 2000, /datum/material/silver = 2000, /datum/material/diamond = 6000)
+	build_path = /obj/item/pickaxe/drill/jackhammer
+	category = list("Mining Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_CARGO
+
 /datum/design/superresonator
 	name = "Upgraded Resonator"
 	desc = "An upgraded version of the resonator that allows more fields to be active at once."

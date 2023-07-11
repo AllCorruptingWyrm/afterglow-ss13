@@ -136,7 +136,7 @@
 	usesound = 'sound/weapons/sonic_jackhammer.ogg'
 	hitsound = 'sound/weapons/sonic_jackhammer.ogg'
 	desc = "Cracks rocks with sonic blasts, and doubles as a demolition power tool for smashing walls."
-	digrange = 2
+	digrange = 5
 
 /obj/item/shovel
 	name = "shovel"
